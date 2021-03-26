@@ -60,5 +60,14 @@ console.log(education);
     console.log(globalLet);
 }
 console.log(globalVar);
+// const a = 'b';
 
-const a = 'b';
+// Crear objetos mas rapidamente
+let name = 'Ivan'
+let age = 22;
+//es5
+obj = {name: name, age: age };
+//Es6
+obj2 = {name, age}; 
+console.log(obj2);
+
