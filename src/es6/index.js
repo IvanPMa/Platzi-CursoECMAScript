@@ -129,3 +129,7 @@ class calculator{
 const calc = new calculator();
 console.log(calc.sum(2,2));
 console.log(calc.sum2(2,2));
+
+//Modulos
+import {hello} from './module';
+hello();
