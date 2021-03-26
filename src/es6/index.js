@@ -49,3 +49,14 @@ let team2 = ['Valeria','Yesica','Camila'];
 
 let education = ['David', ...team1, ...team2];
 console.log(education);
+
+//Scope
+{
+    var globalVar = "Global var";
+}
+
+{
+    let globalLet = 'Global let';
+    console.log(globalLet);
+}
+console.log(globalVar);
